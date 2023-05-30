@@ -1,0 +1,144 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-dark {
+    background-color: #3c3a39;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+background-color: #e6e6ea;
+}
+
+/* ---      Header       --- */
+
+/* --- Navigation Banner --- */
+.nav-ban { 
+    align-items: center;
+    height: 3.5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nb-list { 
+    display: flex;
+    gap: 2vw;
+    cursor: pointer;
+    margin-right: 10vw;;
+}
+
+.nb-item {
+    list-style: none;
+}
+
+.a-nb-item {
+    color: white;
+    text-decoration: none;
+}
+
+/* --- Navigation Internal ---- */
+
+.nav-int {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8.5vh;
+    width: 80vw;
+    margin-left: 10vw;;
+}
+
+.logo {
+    width: 80%;
+    margin-left: 20vw;
+    flex:1;
+    visibility: hidden;
+}
+
+.ni-list {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 60vw;
+    flex: 1;
+    visibility: hidden;
+}
+
+.ni-item {
+    list-style: none;
+}
+
+.a-ni-item {
+    color: gray;
+    text-decoration: none; 
+    font-family: lato; 
+    font-weight: 700; 
+}
+
+.a-ni-item1 {
+    color:#c66866;
+}
+
+.a-ni-item6 {
+    border: #cc3f26 solid 3px;
+}
+.hamburger {
+    display: none;
+    flex: 1;
+}
+
+.bar {
+    display: block;
+    width: 7.5vw;
+    height: 0.7vh;
+    margin: 0.6vh auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(78, 76, 76);
+}
+
+@media(max-width:768px) {
+
+    .hamburger {
+        display: block;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(11.5px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-11.5px) rotate(-45deg);
+    }
+    .nav-int.active {
+        position: fixed;
+        flex-direction: column; 
+        left: 0;
+        transition: 0.3s;
+        z-index: 1;
+        height: 80vh;
+    }
+    .ni-list.active {
+        visibility: visible;
+        flex-direction: column;
+    }
+    .nav-ban {
+        display: none;
+    }
+    
+    }
+    
+    @media(min-width:769px) {
+        
+    .ni-list {
+        visibility: visible;
+    }
+}
