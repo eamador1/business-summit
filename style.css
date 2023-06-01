@@ -56,10 +56,9 @@ html,
 }
 
 .logo {
-  width: 80%;
+  width: 60%;
   margin-left: 20vw;
   flex: 1;
-  visibility: hidden;
 }
 
 .ni-list {
@@ -86,7 +85,7 @@ html,
 }
 
 .a-ni-item6 {
-  border: #cc3f26 solid 3px;
+  border: #cc3f26 solid 5px;
 }
 
 .hamburger {
@@ -147,6 +146,9 @@ html,
 }
 
 .cont-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 96vw;
   margin-left: 2vw;
   border: rgb(239, 237, 237) solid 2.5px;
@@ -405,7 +407,9 @@ html,
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(11.5px) rotate(45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
+    transform: translateY(12px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -413,7 +417,9 @@ html,
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-11.5px) rotate(-45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
+    transform: translateY(-12px) rotate(-45deg);
   }
 
   .nav-int.active {
@@ -423,6 +429,7 @@ html,
     transition: 0.3s;
     z-index: 1;
     height: 80vh;
+    padding-bottom: 10vh;
   }
 
   .ni-list.active {
@@ -438,6 +445,18 @@ html,
 @media (min-width: 769px) {
   .ni-list {
     visibility: visible;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .a-ni-item6 {
+    padding: 0.5vw;
+  }
+
+  .logo{
+    width: 10%;
   }
 
   .home {
@@ -496,7 +515,7 @@ html,
     flex-direction: column;
   }
 
-  /*.cont-content {
+  .cont-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -512,33 +531,50 @@ html,
   }
 
   .lect-title {
-    width: 100%;
-    font-size: 22px;
-    font-weight: 300;
+    margin: 0;
   }
 
-  .img-lecture {
-    width: auto;
+  .forum-title {
+    margin: 0;
   }
 
-  .cont-plecture {
+  .ws-title {
+    margin: 0;
+  }
+
+  .ignite-title {
+    margin: 0;
+  }
+
+  .cont-imglecture {
+    width:100%;
     display: flex;
     justify-content: center;
   }
 
-  .p-lecture {
-    width: 90%;
-    font-size: 14px;
-    text-align: center;
+  .cont-lt {
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
   }
-*/
+
+  .cont-plecture {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .lect-p, 
+  .exhib-p,
+  .forum-p,
+  .ws-p,
+  .ignite-p{
+    margin-left: 0;
+  }
+
   .cont-btn {
     margin-top: 5vh;
     margin-bottom: 8vh;
-  }
-
-  .btn {
-    display: none;
   }
 
   .see {
@@ -546,5 +582,23 @@ html,
     color: white;
     text-decoration: underline;
     cursor: pointer;
+  }
+
+  .cont-speaker {
+    width: 35vw;
+    margin-left: 10vw;
+  }
+
+  .cont-image {
+    width:8vw;
+  }
+
+  .image {
+    width:8vw;
+    height: 11vh;
+  }
+
+  .cont-text {
+    width: 20vw;
   }
 }
