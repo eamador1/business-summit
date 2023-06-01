@@ -56,10 +56,9 @@ html,
 }
 
 .logo {
-  width: 80%;
+  width: 50%;
   margin-left: 20vw;
   flex: 1;
-  visibility: hidden;
 }
 
 .ni-list {
@@ -325,7 +324,9 @@ html,
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(11.5px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
+    margin-top: 5.5px;
+    margin-left: 55vw;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -333,7 +334,9 @@ html,
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-11.5px) rotate(-45deg);
+    transform: translateY(-9.5px) rotate(-45deg);
+    margin-top: 5.5px;
+    margin-left: 55vw;
   }
 
   .nav-int.active {
@@ -348,6 +351,7 @@ html,
   .ni-list.active {
     visibility: visible;
     flex-direction: column;
+    
   }
 
   .nav-ban,
