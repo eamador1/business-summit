@@ -62,10 +62,11 @@ const personalities = [
     const $position = document.createElement('p');
     const $contText = document.createElement('div');
     const $text = document.createElement('p');
+    const $speakerClassName = `cont-speaker${index}`;
 
     //Classes
 
-    $contSpeaker.classList.add('cont-speaker');
+    $contSpeaker.classList.add($speakerClassName);
     $contImage.classList.add('cont-image');
     $image.classList.add('image');
     $contName.classList.add('cont-name');
