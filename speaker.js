@@ -1,58 +1,52 @@
 const personalities = [
-    {
-      id: '1',
-      image: 'img/speaker1.jpeg',
-      name: 'Dr. David Hanson',
-      position: 'CEO Hanson Robotics',
-      experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-        'and other robots designed to mimic human behavior.'],
-    },
+  {
+    id: '1',
+    image: 'img/speaker1.jpeg',
+    name: 'Dr. David Hanson',
+    position: 'CEO Hanson Robotics',
+    experience: 'The designer and researcher creates human-looking robots who have realistic facial expressions.',
+  },
+
+  {
+    id: '2',
+    image: 'img/speaker2.png',
+    name: 'Miguel Angel Indurain',
+    position: 'Universidad de Salamanca',
+    experience: 'One of the most-cited authors on the economics of information',
+  },
+  {
+    id: '3',
+    image: 'img/speaker3.jpeg',
+    name: 'Pedro Almodovar',
+    position: 'CEO Future Robotics',
+    experience: 'The designer and researcher creates human-looking robots who have realistic facial expressions.',      
+  },
   
-    {
-        id: '2',
-        image: 'img/speaker1.jpeg',
-        name: 'Dr. David Hanson',
-        position: 'CEO Hanson Robotics',
-        experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-          'and other robots designed to mimic human behavior.'],
-      },
+  {
+    id: '4',
+    image: 'img/speaker4.jpeg',
+    name: 'Priscilla Johnson',
+    position: 'MIT',
+    experience: 'One of the most-cited authors on the economics of information',
+  },
+
+  {
+    id: '5',
+    image: 'img/speaker5.jpeg',
+    name: 'Violeta Robertson',
+    position: 'CEO Lumen Robotics',
+    experience: 'The designer and researcher creates human-looking robots who have realistic facial expressions.',
+    
+  },
   
-      {
-        id: '3',
-        image: 'img/speaker1.jpeg',
-        name: 'Dr. David Hanson',
-        position: 'CEO Hanson Robotics',
-        experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-          'and other robots designed to mimic human behavior.'],
-      },
-  
-      {
-        id: '4',
-        image: 'img/speaker1.jpeg',
-        name: 'Dr. David Hanson',
-        position: 'CEO Hanson Robotics',
-        experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-          'and other robots designed to mimic human behavior.'],
-      },
-  
-        {
-            id: '5',
-            image: 'img/speaker1.jpeg',
-            name: 'Dr. David Hanson',
-            position: 'CEO Hanson Robotics',
-            experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-              'and other robots designed to mimic human behavior.'],
-          },
-  
-          {
-            id: '6',
-            image: 'img/speaker1.jpeg',
-            name: 'Dr. David Hanson',
-            position: 'CEO Hanson Robotics',
-            experience: ['The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia', 
-              'and other robots designed to mimic human behavior.'],
-          },
-  ];
+  {
+    id: '6',
+    image: 'img/speaker6.jpeg',
+    name: 'Juan Carlos Fitzgerald',
+    position: 'UCLA',
+    experience: 'One of the most-cited authors on the economics of information',
+  },
+];
   //Display Speakers
 
   const $speakers = document.querySelector('.speakers');
