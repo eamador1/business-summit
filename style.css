@@ -343,7 +343,12 @@ html,
   padding-top: 3vh;
 }
 
-.cont-speaker {
+.cont-speaker0,
+.cont-speaker1,
+.cont-speaker2,
+.cont-speaker3,
+.cont-speaker4,
+.cont-speaker5 {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: repeat(3, auto);
@@ -584,13 +589,52 @@ html,
     cursor: pointer;
   }
 
-  .cont-speaker {
+  .speakers {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .cont-speaker0 {
     width: 35vw;
     margin-left: 10vw;
+    grid-area: 1/1/2/2;
+    background-position-x: ;
+  }
+
+  .cont-speaker1 {
+    width: 35vw;
+    margin-left: 10vw;
+    grid-area: 1/2/2/3;
+  }
+
+  .cont-speaker2 {
+    width: 35vw;
+    margin-left: 10vw;
+    grid-area: 2/1/3/2;
+  }
+
+  .cont-speaker3 {
+    width: 35vw;
+    margin-left: 10vw;
+    grid-area: 2/2/3/3;
+  }
+
+  .cont-speaker4 {
+    width: 35vw;
+    margin-left: 10vw;
+    grid-area: 3/1/4/2;
+  }
+
+  .cont-speaker5 {
+    width: 35vw;
+    margin-left: 10vw;
+    grid-area: 3/2/4/3;
   }
 
   .cont-image {
     width:8vw;
+    background-position-x: 4vw;
   }
 
   .image {
