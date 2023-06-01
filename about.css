@@ -142,7 +142,7 @@ html,
 }
 
 .cont-dline {
-  display: none;
+  display:none;
 }
 
 .dline {
@@ -197,6 +197,13 @@ html,
 
 .cont-logoinfo {
   padding-bottom: 4vh;
+}
+
+.cont-dline1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 2vh;
 }
 
 .logo-info {
@@ -273,7 +280,7 @@ html,
 }
 
 .cont-partners {
-  background-color: #20253a;
+  background-color: #414246;
 }
 
 .cont-titlepartner {
@@ -393,6 +400,19 @@ html,
     display: none;
   }
 
+  .cont-dline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9vh;
+  }
+
+  .cont-dline1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 2vh;
+  }
+
   .hello {
     display: none;
   }
@@ -413,6 +433,10 @@ html,
     background-color: #ced0d5;
   }
 
+  .at {
+    padding:1vh;
+  }
+
   .cont-contactinfo {
     width: 32vw;
     padding-bottom: 10vh;
@@ -431,6 +455,7 @@ html,
     padding-top: 5vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 1vh;
   }
 
   .cont-conferencelogo {
@@ -473,9 +498,14 @@ html,
     gap: 3vw;
   }
 
+  .tps {
+    margin-bottom: 2vh;
+  }
+
   .pps {
     font-size: 16px;
     margin: 0;
+    margin-top: 2vh;
   }
 
   .buenos-aires {
