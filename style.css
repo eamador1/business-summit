@@ -452,7 +452,8 @@ html,
     visibility: visible;
   }
 
-  .btn {
+  .btn,
+  .cont-ts {
     display: none;
   }
 
@@ -644,5 +645,18 @@ html,
 
   .cont-text {
     width: 20vw;
+  }
+
+  .cont-dtspeaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4vh;
+  }
+
+  .title-speaker {
+    font-size: 24px;
+  font-weight: 400;
+  padding-top: 3vh;
   }
 }

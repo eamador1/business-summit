@@ -85,7 +85,8 @@ html,
 }
 
 .a-ni-item6 {
-  border: #cc3f26 solid 3px;
+  border: #cc3f26 solid 5px;
+  padding: 0.5vw;
 }
 
 .hamburger {
@@ -136,6 +137,8 @@ html,
   text-align: center;
   color: #f3482a;
   padding-bottom: 10vh;
+  font-size: 57px;
+  font-weight: 700;
 }
 
 .cont-dline {
@@ -216,6 +219,9 @@ html,
 
 .cont-pps {
   padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tps {
@@ -244,11 +250,14 @@ html,
 .buenos-aires {
   padding-top: 4vh;
   width: 80%;
+  filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-45deg);
+  
 }
 
 .mexico {
   margin-top: 3vh;
   width: 80%;
+  filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-45deg);
 }
 
 .title-partner {
@@ -319,14 +328,20 @@ html,
 }
 
 @media (max-width: 768px) {
+  .logo-info2,
+  .line5,
+  .logo-title2 {
+    display:none;
+  }
+
   .hamburger {
     display: block;
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
-    margin-top: 5.5px;
-    margin-left: 55vw;
+    transform: translateY(12px) rotate(45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -334,9 +349,9 @@ html,
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-9.5px) rotate(-45deg);
-    margin-top: 5.5px;
-    margin-left: 55vw;
+    transform: translateY(-12px) rotate(-45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
   }
 
   .nav-int.active {
@@ -346,6 +361,7 @@ html,
     transition: 0.3s;
     z-index: 1;
     height: 80vh;
+    padding-bottom: 10vh;
   }
 
   .ni-list.active {
@@ -365,9 +381,123 @@ html,
     visibility: visible;
   }
 
+  .logo {
+    margin-left: 10vw;
+    width:10%;
+  }
+
+  .cont-partners,
+  .logo-title,
+  .logo-title1,
   .cont-mp {
     display: none;
   }
 
-  
+  .hello {
+    display: none;
+  }
+
+  .cont-dp {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+  }
+
+  .dp {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5%;
+  }
+
+  .cont-logo {
+    background-color: #ced0d5;
+  }
+
+  .cont-contactinfo {
+    width: 32vw;
+    padding-bottom: 10vh;
+  }
+
+  .contact-info {
+    width:30vw;
+    font-size: 16px;
+  }
+
+  .email {
+    font-size: 16px;
+  }
+
+  .cont-logotitle {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont-conferencelogo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+  }
+
+  .conference-logo {
+    width:auto;
+  }
+
+  .logotitle2 {
+    font-size: 32px;
+  }
+
+  .cont-logoinfo {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-info,
+  .logo-info2 {
+    font-size: 16px;
+    color: #686666;
+    width:60vw;
+  }
+
+  .past-conference {
+    padding-top: 5vh;
+  }
+
+  .cont-confimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .pps {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .buenos-aires {
+    width: 20%;
+    height: 25vh;
+  }
+
+  .mexico {
+    width:20%;
+    height: 21vh;
+  }
+
+.cont-rights {
+  background-color: #3c3a39;
+  color: white;
+}
+
+.right1 {
+  font-size: 25px;
+}
+
+.rigtht2 {
+  font-size: 12px;
+}
 }
