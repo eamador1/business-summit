@@ -255,16 +255,64 @@ html,
   padding-bottom: 5vh;
 }
 
+.cont-buenosaires {
+  width: 80%;
+}
+
 .buenos-aires {
   padding-top: 4vh;
-  width: 80%;
-  filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-45deg);
+  width: 80vw;
+  position: relative;
+}
+
+.p-buenosaires {
+  text-align: center;
+  top: 155vh;
+  left: 10vw;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  width: 80vw;
+}
+
+.y-2018 {
+  color: white;
+  position: absolute;
+  top: 155vh;
+  left: 43vw;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.cont-mexico {
+  width: 80vw;
+}
+
+.p-mexico {
+  text-align: center;
+  top: 192vh;
+  left: 29vw;
+  font-size: 14px;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+
+.y-2021 {
+  z-index: 1;
+  position: absolute;
+  font-size: 20px;
+  top: 190vh;
+  left: 42vw;
+  color: white;
+  font-weight: 700;
 }
 
 .mexico {
   margin-top: 3vh;
-  width: 80%;
-  filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%) hue-rotate(-45deg);
+  width: 80vw;
+  position: relative;
 }
 
 .title-partner {
@@ -507,13 +555,17 @@ html,
     margin-top: 2vh;
   }
 
+  .cont-buenosaires {
+    width: 20vw;
+  }
+
   .buenos-aires {
-    width: 20%;
+    width: 20vw;
     height: 25vh;
   }
 
   .mexico {
-    width: 20%;
+    width: 20vw;
     height: 21vh;
   }
 

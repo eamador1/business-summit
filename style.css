@@ -87,7 +87,7 @@ html,
 
 .a-ni-item6 {
   border: #cc3f26 solid 5px;
-  padding:0.5w;
+  padding: 0.5vw;
 }
 
 .hamburger {
@@ -468,7 +468,7 @@ html,
   }
 
   .logo {
-    margin-left:10vw;
+    margin-left: 10vw;
     width: 10%;
   }
 
