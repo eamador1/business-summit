@@ -71,7 +71,7 @@ VS Code, downloading repo.
 
 ### Usage
 
-To run the project, execute the following command: Open the page in your web-browser https://eamador1.github.io/portfolio/
+To run the project, execute the following command: Open the page in your web-browser https://eamador1.github.io/business-summit/
 
 ### Run tests
 
@@ -83,7 +83,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 ### Deployment
 
-You can deploy this project using: Web host provider
+https://eamador1.github.io/business-summit/
 
 ## 👥 Authors <a name="authors"></a>
 
