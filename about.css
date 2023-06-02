@@ -415,7 +415,7 @@ html,
     transition: 0.3s;
     z-index: 1;
     height: 100vh;
-    width:100vw;
+    width: 100vw;
     padding-bottom: 10vh;
   }
 
@@ -578,7 +578,7 @@ html,
   }
 
   .cont-right1 {
-    justify-self:end;  
+    justify-self: end;
   }
 
   .right1 {
@@ -593,6 +593,5 @@ html,
 
   .rigtht2 {
     font-size: 12px;
-
   }
 }
