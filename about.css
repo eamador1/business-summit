@@ -1,0 +1,597 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-dark {
+  background-color: #3c3a39;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: #e6e6ea;
+}
+
+/* ---      Header       --- */
+
+/* --- Navigation Banner --- */
+.nav-ban {
+  align-items: center;
+  height: 3.5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nb-list {
+  display: flex;
+  gap: 2vw;
+  cursor: pointer;
+  margin-right: 10vw;
+}
+
+.nb-item {
+  list-style: none;
+}
+
+.a-nb-item {
+  color: white;
+  text-decoration: none;
+}
+
+/* --- Navigation Internal ---- */
+
+.nav-int {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8.5vh;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.logo {
+  width: 50%;
+  margin-left: 20vw;
+  flex: 1;
+  cursor: pointer;
+}
+
+.ni-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+  flex: 1;
+  visibility: hidden;
+}
+
+.ni-item {
+  list-style: none;
+}
+
+.a-ni-item {
+  color: gray;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.a-ni-item1 {
+  color: #c66866;
+}
+
+.a-ni-item6 {
+  border: #cc3f26 solid 5px;
+  padding: 0.5vw;
+}
+
+.hamburger {
+  display: none;
+  flex: 1;
+}
+
+.bar {
+  display: block;
+  width: 7.5vw;
+  height: 0.7vh;
+  margin: 0.6vh auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(78, 76, 76);
+}
+
+/* About Section */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vh;
+  background-image: url(img/Background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: 10vh;
+}
+
+.cont-hello {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.hello {
+  color: #f3482a;
+}
+
+.cont-at {
+  text-align: center;
+  width: 100vw;
+  padding-top: 1vh;
+}
+
+.at {
+  text-align: center;
+  color: #f3482a;
+  padding-bottom: 9vh;
+}
+
+.cont-dline {
+  display: none;
+}
+
+.dline {
+  width: 5vw;
+  height: 3px;
+  background-color: rgb(153, 88, 88);
+}
+
+.cont-mp {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.mp {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+  width: 95%;
+  font-weight: 400;
+  margin-left: 2.5%;
+}
+
+.cont-contactinfo {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.contactinfo {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.email {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logo-title1,
+.logo-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.logo-title {
+  padding-top: 3vh;
+}
+
+.cont-logoinfo {
+  padding-bottom: 4vh;
+}
+
+.cont-dline1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 2vh;
+}
+
+.logo-info {
+  padding-top: 2vh;
+  color: #969494;
+  text-align: center;
+}
+
+.conference-logo {
+  width: 100%;
+}
+
+.past-conference {
+  width: 100%;
+}
+
+.title-ps {
+  color: black;
+}
+
+.cont-pps {
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tps {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pps {
+  color: #969494;
+  font-size: 12px;
+  line-height: 20px;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.cont-confimages {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.cont-buenosaires {
+  width: 80%;
+}
+
+.buenos-aires {
+  padding-top: 4vh;
+  width: 80vw;
+  position: relative;
+}
+
+.p-buenosaires {
+  text-align: center;
+  top: 155vh;
+  left: 10vw;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  width: 80vw;
+}
+
+.y-2018 {
+  color: white;
+  position: absolute;
+  top: 155vh;
+  left: 43vw;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.cont-mexico {
+  width: 80vw;
+}
+
+.p-mexico {
+  text-align: center;
+  top: 192vh;
+  left: 29vw;
+  font-size: 14px;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+
+.y-2021 {
+  z-index: 1;
+  position: absolute;
+  font-size: 20px;
+  top: 190vh;
+  left: 42vw;
+  color: white;
+  font-weight: 700;
+}
+
+.mexico {
+  margin-top: 3vh;
+  width: 80vw;
+  position: relative;
+}
+
+.title-partner {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 3vh;
+  padding-bottom: 4vh;
+}
+
+.altoros {
+  width: 15%;
+}
+
+.cont-partners {
+  background-color: #414246;
+}
+
+.cont-titlepartner {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-imgpartners2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4vh;
+}
+
+.cont-imgpartners3 {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+.cont-rights {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: auto;
+  width: 100vw;
+  flex-wrap: wrap;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  align-items: center;
+}
+
+.cont-right1 {
+  grid-area: 1/1/2/2;
+  width: 30vw;
+  margin-left: 12vw;
+}
+
+.right1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cont-right2 {
+  grid-area: 1/2/2/3;
+  width: 90%;
+  margin-left: 3vw;
+}
+
+.right2 {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .logo-info2,
+  .line5,
+  .logo-title2 {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-16px) rotate(-45deg);
+    margin-top: 10px;
+    margin-left: 60vw;
+  }
+
+  .nav-int.active {
+    position: fixed;
+    flex-direction: column;
+    left: -10vw;
+    transition: 0.3s;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    padding-bottom: 10vh;
+  }
+
+  .ni-list.active {
+    visibility: visible;
+    flex-direction: column;
+  }
+
+  .nav-ban,
+  .cont-dp {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .ni-list {
+    visibility: visible;
+  }
+
+  .logo {
+    margin-left: 10vw;
+    width: 10%;
+  }
+
+  .cont-partners,
+  .logo-title,
+  .logo-title1,
+  .cont-mp {
+    display: none;
+  }
+
+  .cont-dline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9vh;
+  }
+
+  .cont-dline1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 2vh;
+  }
+
+  .hello {
+    display: none;
+  }
+
+  .cont-dp {
+    width: 60%;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .dp {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5%;
+  }
+
+  .cont-logo {
+    background-color: #ced0d5;
+  }
+
+  .at {
+    padding: 1vh;
+    font-size: 57px;
+    font-weight: 900;
+    padding-top: 8vh;
+  }
+
+  .cont-contactinfo {
+    width: 32vw;
+    padding-bottom: 10vh;
+  }
+
+  .contact-info {
+    width: 30vw;
+    font-size: 16px;
+  }
+
+  .email {
+    font-size: 16px;
+  }
+
+  .cont-logotitle {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+  }
+
+  .cont-conferencelogo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+  }
+
+  .conference-logo {
+    width: auto;
+  }
+
+  .logotitle2 {
+    font-size: 32px;
+  }
+
+  .cont-logoinfo {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-info,
+  .logo-info2 {
+    font-size: 16px;
+    color: #686666;
+    width: 60vw;
+  }
+
+  .past-conference {
+    padding-top: 5vh;
+  }
+
+  .cont-confimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .tps {
+    margin-bottom: 2vh;
+  }
+
+  .pps {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 2vh;
+  }
+
+  .cont-buenosaires {
+    width: 20vw;
+  }
+
+  .buenos-aires {
+    width: 20vw;
+    height: 25vh;
+  }
+
+  .mexico {
+    width: 20vw;
+    height: 21vh;
+  }
+
+  .cont-rights {
+    background-color: #3c3a39;
+    color: white;
+  }
+
+  .cont-right1 {
+    justify-self: end;
+  }
+
+  .right1 {
+    font-size: 18px;
+    margin-left: 13vw;
+  }
+
+  .cont-right2 {
+    justify-self: start;
+    margin-left: 0;
+  }
+
+  .rigtht2 {
+    font-size: 12px;
+  }
+}
