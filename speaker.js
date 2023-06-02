@@ -72,7 +72,7 @@ personalities.forEach((personality, index) => {
   $contPosition.classList.add('cont-position');
   $position.classList.add('position');
   $contText.classList.add('cont-text');
-  $text.classList.add('.text');
+  $text.classList.add('text');
 
   // Values
   $image.setAttribute('src', personality.image);

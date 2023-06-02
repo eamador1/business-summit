@@ -132,14 +132,13 @@ html,
 .cont-at {
   text-align: center;
   width: 100vw;
+  padding-top: 1vh;
 }
 
 .at {
   text-align: center;
   color: #f3482a;
-  padding-bottom: 10vh;
-  font-size: 57px;
-  font-weight: 700;
+  padding-bottom: 9vh;
 }
 
 .cont-dline {
@@ -351,7 +350,7 @@ html,
 
 .cont-rights {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 45% 55%;
   grid-template-rows: auto;
   width: 100vw;
   flex-wrap: wrap;
@@ -363,7 +362,7 @@ html,
 .cont-right1 {
   grid-area: 1/1/2/2;
   width: 30vw;
-  margin-left: 8vw;
+  margin-left: 12vw;
 }
 
 .right1 {
@@ -373,8 +372,8 @@ html,
 
 .cont-right2 {
   grid-area: 1/2/2/3;
-  width: fit-content;
-  margin-left: 17vw;
+  width: 90%;
+  margin-left: 3vw;
 }
 
 .right2 {
@@ -466,7 +465,7 @@ html,
 
   .cont-dp {
     width: 60%;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
   }
 
@@ -482,6 +481,9 @@ html,
 
   .at {
     padding: 1vh;
+    font-size: 57px;
+    font-weight: 900;
+    padding-top: 8vh;
   }
 
   .cont-contactinfo {
@@ -574,11 +576,22 @@ html,
     color: white;
   }
 
+  .cont-right1 {
+    justify-self:end;  
+  }
+
   .right1 {
-    font-size: 25px;
+    font-size: 18px;
+    margin-left: 13vw;
+  }
+
+  .cont-right2 {
+    justify-self: start;
+    margin-left: 0;
   }
 
   .rigtht2 {
     font-size: 12px;
+
   }
 }
